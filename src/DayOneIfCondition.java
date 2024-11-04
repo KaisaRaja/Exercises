@@ -35,5 +35,6 @@ public class DayOneIfCondition {   // if condition ja teksti printimine jne
 
         }
 
+
     }
 }
