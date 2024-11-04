@@ -33,6 +33,7 @@ public class DayOneIfCondition {   // if condition ja teksti printimine jne
         } else {
             System.out.println("No specific conditions were met");
 
+
         }
 
 
