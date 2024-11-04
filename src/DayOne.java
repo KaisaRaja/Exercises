@@ -3,4 +3,6 @@ public class DayOne {
 
         System.out.println("Kaisa");
     }
+    int a = 2;
+
 }
