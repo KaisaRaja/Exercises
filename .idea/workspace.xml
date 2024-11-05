@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522057b-5991-44ef-a5c1-43bfbc8f691b" name="Changes" comment="Päeva lõpp">
-      <change afterPath="$PROJECT_DIR$/dayTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/testDayTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,8 @@
     "Application.DayOneIfCondition.executor": "Run",
     "Application.Kontroll.executor": "Run",
     "Application.dayTwo.executor": "Run",
+    "Application.dayTwoSecond.executor": "Run",
+    "Application.testDayTwo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -67,7 +70,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.dayTwoSecond">
+  <component name="RunManager" selected="Application.testDayTwo">
     <configuration name="DayOneIfCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DayOneIfCondition" />
       <module name="valiit" />
@@ -96,8 +99,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testDayTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testDayTwo" />
+      <module name="valiit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testDayTwo" />
         <item itemvalue="Application.dayTwoSecond" />
         <item itemvalue="Application.dayTwo" />
         <item itemvalue="Application.Kontroll" />
@@ -124,7 +135,7 @@
       <workItem from="1730720191590" duration="15045000" />
       <workItem from="1730790248246" duration="2489000" />
       <workItem from="1730812337064" duration="3000" />
-      <workItem from="1730812413247" duration="465000" />
+      <workItem from="1730812413247" duration="4158000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <option name="closed" value="true" />
@@ -246,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730812827420</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Päeva lõpp">
+      <option name="closed" value="true" />
+      <created>1730813040633</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730813040633</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
