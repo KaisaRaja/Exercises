@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class testDayTwo {public static void main(String[] args) {
 
     // 5 (1)
@@ -11,7 +12,7 @@ public class testDayTwo {public static void main(String[] args) {
     System.out.println(hello2.toLowerCase());
 
     // 7 (3)
-    String hello3 = "Hllo,world";
+    String hello3 = "Hello,world";
     String substring = "world";
     if (hello3.contains(substring)) {
         System.out.println(hello3);
@@ -28,17 +29,24 @@ public class testDayTwo {public static void main(String[] args) {
     System.out.println(hello5.replace('o', 'a'));
 
     // 10 (6)
-    String hello6 = "Hello world";
-    System.out.println(hello6.startsWith("Hello") && hello6.endsWith("world"));
+    String hello6 = "Hello world!";
+    System.out.println(hello6.startsWith("Hello") && hello6.endsWith("world!"));
 
     // 11 (7)
     String hello7 = "Hello world!";
     System.out.println(hello7.substring(7, 12));
 
     //12 (8)
-    String name = "Abracadabra";
-    char K = 'k'
-    System.out.println();
+    String name = "abracadabra";
+    char char1 = 'a';
+    System.out.println("Input is " + name.indexOf(char1) + ", output is " + name.lastIndexOf(char1));
+
+    // 13 (9)
+    String sentence = "Java is fun";
+    String regex = "fun";
+    System.out.println(sentence.replace(regex, "awesome"));
+   //  System.out.println(sentence.replaceFirst(regex, "awesome")); lisa, kui kolme funiga
+
 
 
 
