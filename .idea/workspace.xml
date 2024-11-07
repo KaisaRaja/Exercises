@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522057b-5991-44ef-a5c1-43bfbc8f691b" name="Changes" comment="Päeva lõpp">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/testDayTwo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dayFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dayThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diceGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fourTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testDayFourB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/valiit/Kontroll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/valiit/Kontroll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kontroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kontroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/testDayTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,9 @@
     &quot;accountId&quot;: &quot;84d957ee-fe50-4371-bbf0-0506f91d2fd6&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -52,36 +57,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DayOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DayOneIfCondition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Kontroll.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dayTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.dayTwoSecond.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testDayTwo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kaisa/IdeaProjects/valiit&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kaisa/IdeaProjects/valiit/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DayOne.executor": "Run",
+    "Application.DayOneIfCondition.executor": "Run",
+    "Application.Kontroll.executor": "Run",
+    "Application.dayFour.executor": "Run",
+    "Application.dayThree.executor": "Run",
+    "Application.dayTwo.executor": "Run",
+    "Application.dayTwoSecond.executor": "Run",
+    "Application.diceGame.executor": "Run",
+    "Application.fourTest.executor": "Run",
+    "Application.testDayFourB.executor": "Run",
+    "Application.testDayTwo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Kaisa/IdeaProjects/valiit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Kaisa/IdeaProjects/valiit/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Kontroll">
-    <configuration name="DayOneIfCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DayOneIfCondition" />
-      <module name="valiit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.fourTest">
     <configuration name="Kontroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kontroll" />
       <module name="valiit" />
@@ -89,15 +92,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dayTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dayTwo" />
+    <configuration name="dayFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dayFour" />
       <module name="valiit" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dayTwoSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dayTwoSecond" />
+    <configuration name="diceGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diceGame" />
+      <module name="valiit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fourTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fourTest" />
+      <module name="valiit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testDayFourB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testDayFourB" />
       <module name="valiit" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,18 +122,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.testDayTwo" />
-      <item itemvalue="Application.DayOneIfCondition" />
-      <item itemvalue="Application.dayTwo" />
-      <item itemvalue="Application.dayTwoSecond" />
+      <item itemvalue="Application.dayFour" />
+      <item itemvalue="Application.diceGame" />
+      <item itemvalue="Application.fourTest" />
+      <item itemvalue="Application.testDayFourB" />
       <item itemvalue="Application.Kontroll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fourTest" />
+        <item itemvalue="Application.testDayFourB" />
+        <item itemvalue="Application.diceGame" />
+        <item itemvalue="Application.dayFour" />
         <item itemvalue="Application.Kontroll" />
-        <item itemvalue="Application.testDayTwo" />
-        <item itemvalue="Application.dayTwoSecond" />
-        <item itemvalue="Application.dayTwo" />
-        <item itemvalue="Application.DayOneIfCondition" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +158,7 @@
       <workItem from="1730790248246" duration="2489000" />
       <workItem from="1730812337064" duration="3000" />
       <workItem from="1730812413247" duration="4688000" />
-      <workItem from="1730819848162" duration="7754000" />
+      <workItem from="1730819848162" duration="67873000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <option name="closed" value="true" />
@@ -286,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730816922605</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Päeva lõpp">
+      <option name="closed" value="true" />
+      <created>1730831861552</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730831861552</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +349,10 @@
           <line>3</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fourTest.java</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Kontroll.java</url>
           <line>4</line>
@@ -331,6 +361,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/testDayFourB.java</url>
+          <line>4</line>
+          <properties class="testDayFourB" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

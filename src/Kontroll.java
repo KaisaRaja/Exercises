@@ -78,13 +78,16 @@ public class Kontroll {
         // 1
         String hel = "hello world";
         System.out.println(hel.toUpperCase());
+        // String original = "hello world";
+        // String uppercased = original.toUpperCase();
+       //  System.out.println("Uppercase: " uppercased);
         // 2
         String HEL = "HELLO  WORLD";
         System.out.println(HEL.toLowerCase());
         //3
         String hello1 = "Hello, world!";
         String world = "world";
-        if (hello1.contains(world)) {
+        if (hello1.contains(world)) {  // BOOLEAN!!!
             System.out.println("It contains!");
         } else {
             System.out.println("It doesn't contain!");
@@ -94,25 +97,56 @@ public class Kontroll {
         String hello = "Hello";
         System.out.println(hello.charAt(0));
         System.out.println(hello.charAt(1));
+
         //5
         String hello2 = "Hello, world!";
         System.out.println(hello2.replace('o', 'a'));
+
+        // 5 PAREN
+        String original = "Hello, world!";
+        String modified = original.replace('o', 'a');
+        System.out.println("Modified string " + modified);
+
         // 6
         String string1 = "Hello, ";
         String string2 = "world!";
         System.out.println(hello2.startsWith(string1) && hello2.endsWith(string2));
+
+        // 6 parem
+        String start = "Hello";
+        String end = "world!";
+        boolean startsWith = original.startsWith(start);
+        boolean endsWith = original.endsWith(end);
+        boolean result = startsWith && endsWith;
+        System.out.println("Starts with " + start + " " + startsWith);
+        System.out.println("Ends with " + end + " " + endsWith);
+        System.out.println("Both conditions are met : " + result);
         //7
         System.out.println(hello2.substring(0, 12));
+
+        // 7 parem
+        int startIndex = 7;
+        int endIndex = 12; // jäi pooleli
         // 8
         String ab = "abracadabra";
-        char char1 = 'a';
+        char char1 = 'b';
         System.out.println("The first character is in the " + ab.indexOf(char1)   + " place" +
                 " and the last character is in the " + ab.lastIndexOf(char1)  + " place. ");
+        // 8 parem // Kasutasin string ab
+        char searchChar = 'b';
+
+        int firstPosition = original.indexOf(searchChar);
+        int lastPosition = original.lastIndexOf(searchChar);
+
+        System.out.println("First position of '" + searchChar + "' is " + firstPosition);
+        System.out.println("Last position of '" + searchChar + "' is " + lastPosition);
+
         // 9
         String sentence = "Java is fun and fun!";
-        String f = "fun";
-        String a = "awesome";
+        String f = "fun";   // target
+        String a = "awesome";   // replacement
         System.out.println(sentence.replace(f,a));
+        // String upDatedSentemce = sentence.replace (target, replacement) ;
         System.out.println(sentence.replaceFirst(f, a));
 
         }
