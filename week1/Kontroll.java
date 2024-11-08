@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package week1;
 
 public class Kontroll {
 

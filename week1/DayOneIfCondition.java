@@ -1,3 +1,5 @@
+package week1;
+
 public class DayOneIfCondition {   // if condition ja teksti printimine jne
     public static void main(String[] args) {
         // System.out.println("Kaisa");

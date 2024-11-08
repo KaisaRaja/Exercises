@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="testDayTwo" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="testDayTwo" />
+    <option name="MAIN_CLASS_NAME" value="src.week1.testDayTwo" />
     <module name="valiit" />
     <method v="2">
       <option name="Make" enabled="true" />

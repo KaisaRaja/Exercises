@@ -1,5 +1,6 @@
+package week1;
+
 import java.util.Arrays;
-import java.util.Random;
 
 public class dayFour {
     public static void main(String[] args) {

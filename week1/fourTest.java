@@ -1,3 +1,5 @@
+package week1;
+
 import java.util.Arrays;
 
 public class fourTest {
@@ -5,7 +7,7 @@ public class fourTest {
 
         // 1 Task: Declare an integer array of size 5 and initialize it with values: {1, 2, 3, 4, 5}.
         //Hint: Use int[] myArray = {1, 2, 3, 4, 5};
-        int[] myArray = {1, 2, 3, 4, 5};
+         int[] myArray = {1, 2, 3, 4, 5};
         System.out.println("My array is : " + Arrays.toString(myArray));
         // 2 Task: Access and print the third element in the array {10, 20, 30, 40, 50}.
         //Hint: Use array[2] (since arrays are zero-indexed).

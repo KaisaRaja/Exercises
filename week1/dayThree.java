@@ -1,5 +1,5 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+package week1;
+
 import java.util.Arrays;
 
 public class dayThree {
