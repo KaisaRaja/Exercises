@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522057b-5991-44ef-a5c1-43bfbc8f691b" name="Changes" comment="Päeva lõpp">
-      <change afterPath="$PROJECT_DIR$/week1/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1/testingDayFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/proov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekTwo/weekTwoDayOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/dayFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1/dayFive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/dayFiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1/dayFiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/testingDayFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1/testingDayFive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +70,13 @@
     "Application.dayTwoSecond.executor": "Run",
     "Application.diceGame.executor": "Run",
     "Application.fourTest.executor": "Run",
+    "Application.proov.executor": "Run",
     "Application.testDayFourB.executor": "Run",
     "Application.testDayTwo.executor": "Run",
     "Application.testingDayFive.executor": "Run",
     "Application.week1.Exercises.executor": "Run",
     "Application.week1.dayFive.executor": "Run",
+    "Application.weekTwoDayOne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
@@ -101,7 +101,7 @@
       <recent name="src.week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testingDayFive">
+  <component name="RunManager" selected="Application.weekTwoDayOne">
     <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week1.Book" />
       <module name="valiit" />
@@ -115,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dayFiveTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.dayFiveTests" />
+    <configuration name="proov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week1.proov" />
       <module name="valiit" />
       <extension name="coverage">
         <pattern>
@@ -141,19 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Exercises" />
-      <module name="valiit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="week1.dayFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week1.dayFive" />
       <module name="valiit" />
@@ -167,21 +154,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="weekTwoDayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weekTwo.weekTwoDayOne" />
+      <module name="valiit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weekTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.testDayTwo" />
+      <item itemvalue="Application.proov" />
+      <item itemvalue="Application.weekTwoDayOne" />
       <item itemvalue="Application.Book" />
-      <item itemvalue="Application.dayFiveTests" />
       <item itemvalue="Application.testingDayFive" />
-      <item itemvalue="Application.week1.Exercises" />
       <item itemvalue="Application.week1.dayFive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.weekTwoDayOne" />
         <item itemvalue="Application.testingDayFive" />
+        <item itemvalue="Application.proov" />
         <item itemvalue="Application.week1.dayFive" />
         <item itemvalue="Application.Book" />
-        <item itemvalue="Application.dayFiveTests" />
-        <item itemvalue="Application.week1.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +206,7 @@
       <workItem from="1730812337064" duration="3000" />
       <workItem from="1730812413247" duration="4688000" />
       <workItem from="1730819848162" duration="91275000" />
+      <workItem from="1731100479126" duration="27800000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <option name="closed" value="true" />
@@ -416,10 +417,15 @@
           <url>file://$PROJECT_DIR$/week1/fourTest.java</url>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/week1/proov.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/week1/Kontroll.java</url>
           <line>4</line>
-          <properties class="src.week1.Kontroll">
+          <properties class="week1.Kontroll" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
