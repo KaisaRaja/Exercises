@@ -29,7 +29,6 @@ public class weekTwoDayOne {
         salariesRemoveMap();
 
     }
-
     private static void salariesRemoveMap() {
         Map<String, Integer> salaries = new HashMap<>();
         salaries.put("Mary", 2000);
