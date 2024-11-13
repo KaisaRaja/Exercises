@@ -1,0 +1,52 @@
+{
+  "books": [
+    {
+      "title": "Book",
+      "rating": "8.2"
+    },
+    {
+      "title": "Booked",
+      "rating": "6.2"
+    }
+    {
+      "title": "Bookself",
+      "rating": "4.2"
+    }
+  ]
+}
+
+{ "people": [
+  {
+    "name":"John",
+  "age":30,
+  "address":"Tallinn",
+  "kids": [
+    {
+      "name": "Jake",
+      "age": 17,
+      "underAge": true
+    },
+    {
+      "name": "Kate",
+      "age": 3 ,
+      "underAge": true
+    }
+  ]
+},
+  {
+      "name":"Jane",
+      "age":30,
+      "address":"Tallinn",
+      "kids": [
+        {
+          "name": "Jake",
+          "age": 17,
+          "underAge": true
+        },
+        {
+          "name": "Kate",
+          "age": 3 ,
+          "underAge": true
+        }]
+]
+}
