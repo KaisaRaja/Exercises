@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522057b-5991-44ef-a5c1-43bfbc8f691b" name="Changes" comment="Added Day 8">
-      <change afterPath="$PROJECT_DIR$/weekTwo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weekTwo/weekTwoDatFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weekTwo/weekTwoDayFive.java" afterDir="false" />
+    <list default="true" id="5522057b-5991-44ef-a5c1-43bfbc8f691b" name="Changes" comment="Added Day 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weekTwo/weekTwoDayThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/weekTwo/weekTwoDayThreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,52 +50,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Book.executor": "Run",
-    "Application.Car.executor": "Run",
-    "Application.DayOne.executor": "Run",
-    "Application.DayOneIfCondition.executor": "Run",
-    "Application.Exercises.executor": "Run",
-    "Application.Kontroll.executor": "Run",
-    "Application.dayFive.executor": "Run",
-    "Application.dayFiveTests.executor": "Run",
-    "Application.dayFour.executor": "Run",
-    "Application.dayThree.executor": "Run",
-    "Application.dayTwo.executor": "Run",
-    "Application.dayTwoSecond.executor": "Run",
-    "Application.diceGame.executor": "Run",
-    "Application.fourTest.executor": "Run",
-    "Application.proov.executor": "Run",
-    "Application.testDayFourB.executor": "Run",
-    "Application.testDayTwo.executor": "Run",
-    "Application.testingDayFive.executor": "Run",
-    "Application.week1.Exercises.executor": "Run",
-    "Application.week1.dayFive.executor": "Run",
-    "Application.weekTwoDayFive.executor": "Debug",
-    "Application.weekTwoDayOne.executor": "Run",
-    "Application.weekTwoDayThree.executor": "Run",
-    "Application.weekTwoDayThreeTest.executor": "Run",
-    "Application.weekTwoDayTwo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Kaisa/Downloads/demo (3)/demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Kaisa/IdeaProjects/valiit/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Car.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayOneIfCondition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercises.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Kontroll.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dayFive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dayFiveTests.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dayFour.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dayThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dayTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dayTwoSecond.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diceGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fourTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.proov.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testDayFourB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testDayTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testingDayFive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.week1.Exercises.executor&quot;: &quot;Run&quot;,
+    &quot;Application.week1.dayFive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.weekTwoDayFive.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.weekTwoDayOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.weekTwoDayThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.weekTwoDayThreeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.weekTwoDayTwo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kaisa/Downloads/demo (3)/demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Kaisa/IdeaProjects/valiit/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="src.week1" />
@@ -215,7 +210,8 @@
       <workItem from="1731405658514" duration="6993000" />
       <workItem from="1731481223089" duration="12040000" />
       <workItem from="1731584526706" duration="1232000" />
-      <workItem from="1731597833012" duration="7916000" />
+      <workItem from="1731597833012" duration="9887000" />
+      <workItem from="1731677113470" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <option name="closed" value="true" />
@@ -425,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731492504650</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added Day 10">
+      <option name="closed" value="true" />
+      <created>1731669927472</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1731669927472</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +453,8 @@
     <MESSAGE value="Päeva lõpp" />
     <MESSAGE value="Added Day 6" />
     <MESSAGE value="Added Day 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Day 8" />
+    <MESSAGE value="Added Day 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Day 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
