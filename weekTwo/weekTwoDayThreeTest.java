@@ -32,44 +32,16 @@ public class weekTwoDayThreeTest {
     }
 
     private static void monthDays() {
-        Map<String, Integer> month = new HashMap<String, Integer>();
         int number = 5;
         switch (number) {
-            case 1:
-                System.out.println("January" + " " + 31 + " days in a month");
+            case 1, 3, 5, 7, 8, 10, 12:
+                System.out.println("31 days");
                 break;
             case 2:
-                System.out.println("Febuary" + " " + 28 + " days in a month");
+                System.out.println("28 days");
                 break;
-            case 3:
-                System.out.println("March" + " " + 31 + " days in a month");
-                break;
-            case 4:
-                System.out.println("April" + " " + 30 + " days in a month");
-                break;
-            case 5:
-                System.out.println("May" + " " + 31 + " days in a month");
-                break;
-            case 6:
-                System.out.println("June" + " " + 30 + " days in a month");
-                break;
-            case 7:
-                System.out.println("July" + " " + 31 + " days in a month");
-                break;
-            case 8:
-                System.out.println("August" + " " + 31 + " days in a month");
-                break;
-            case 9:
-                System.out.println("September" + " " + 30 + " days in a month");
-                break;
-            case 10:
-                System.out.println("October" + " " + 31 + " days in a month");
-                break;
-            case 11:
-                System.out.println("November" + " " + 30 + " days in a month");
-                break;
-            case 12:
-                System.out.println("December" + " " + 31 + " days in a month");
+            case 4, 6, 9, 11:
+                System.out.println("30 days");
                 break;
             default:
                 System.out.println("Invalid input");
