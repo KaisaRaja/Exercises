@@ -1,23 +1,52 @@
 package weekThree.ATM;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
-public class ATM {
+public class ATMTwo {
     private static double balance= 1000.00;
     private static final int PIN = 1234;
+    private static Map<Integer, User> users = new HashMap<>(); // Map PIN to User
 
     public static void main(String[] args) {
+        Account account1 = new Account(1000.00);
+        Account account2 = new Account(5756.00);
+        Account account3 = new Account(1200.00);
+
+        User user1 = new User("Jack", 1234, account1);
+        User user2 = new User("John", 5678, account2);
+        User user3 = new User("Charlie", 9012, account3);
+        users.put(user1.getPIN(), user1);
+        users.put(user2.getPIN(), user2);
+        users.put(user3.getPIN(), user3);
+
         Scanner scanner = new Scanner(System.in);
-        boolean correctPin = false;
-        while (!correctPin) {
+        System.out.println("Welcome to ATM, please enter your PIN!");
+        int enteredPin = scanner.nextInt();
+        User currentUser = currentUser(enteredPin);
+        if (currentUser == null) {
+            System.out.println("Invalid PIN.  Try again");
+            return;
+        }
+        System.out.printf("Welcome, %s!%n", currentUser.getName());
+
+       // boolean enteredPin = false;
+       /*  while (!enteredPin) {
             if (!validatePIN(scanner)) {
                 System.out.println("Invalid PIN, please try again");
             } else {
-                correctPin = true;
+                enteredPin = true;
+                System.out.printf("Welcome, %s!%n", currentUser.getName());
             }
-        }
+        } */
         menu();
         scanner.close();
+    }
+
+    private static User currentUser(int enteredPin) {
+        User currentUser = users.get(enteredPin);
+        return currentUser;
     }
 
     private static void menu() {
@@ -25,24 +54,28 @@ public class ATM {
 
         boolean exit = false;
         while (!exit) {
-            System.out.println("ATM menu:");
+            System.out.println("\nATM Menu:");
             System.out.println("1. Check balance");
             System.out.println("2. Deposit");
             System.out.println("3. Withdraw");
             System.out.println("4. Change PIN");
+            System.out.println("5. Exit");
+           String currentUser;
+
             int choice = scanner.nextInt();
+
             switch (choice) {
                 case 1:
-                    checkBalance();
+                  //  checkBalance(user);
                     break;
                 case 2:
-                    depositMoney(scanner);
+                //    depositMoney(scanner, currentUser);
                     break;
                 case 3:
                     withdrawMoney(scanner);
                     break;
                 case 4:
-                    changePin(scanner);
+               //     changePin(scanner, currentUser);
                     break;
                 case 5: {
                     System.out.println("Thank you using the ATM, goodbye!");
@@ -52,21 +85,20 @@ public class ATM {
                     System.out.println("Invalid option. Please try again");
             }
         }
+
     }
-
-
-    private static boolean validatePIN(Scanner scanner) {
+  /*   private static boolean validatePIN(Scanner scanner) {
         System.out.println("Enter PIN");
-        int enteredPin = scanner.nextInt();
-        return enteredPin == PIN;
+        int Pin = get();
+        return Pin == PIN;
 
+    } */
+
+    private static void checkBalance(User user) {
+        System.out.printf("Your current balance is: $%.2f%n", user.getAccount().getBalance());
     }
 
-    private static void checkBalance() {
-        System.out.println("Your current balance is: " + balance);
-    }
-
-    private static void depositMoney(Scanner scanner) {
+    private static void depositMoney(Scanner scanner, String user) {
         System.out.println("Enter amount to deposit: ");
         double amount = scanner.nextDouble();
         if (amount > 0) {
@@ -75,7 +107,7 @@ public class ATM {
             menu();
         } else  {
             System.out.println("Invalid amount, please try again");
-            depositMoney(scanner);
+            depositMoney(scanner, user);
         }
     }
 
@@ -97,13 +129,13 @@ public class ATM {
 
     }
 
-    private static void changePin(Scanner scanner) {
-        System.out.println("Enter new PIN");
-        int enteredPin = scanner.nextInt();
-        if (enteredPin == PIN) {
+   private static void changePin(Scanner scanner) {
+       System.out.println("Enter new PIN");
+        int Pin = scanner.nextInt();
+        if (Pin == PIN) {
             System.out.println("PIN already exists, please try again");
-            enteredPin = scanner.nextInt(); //MAX ATTEMPTS
-            if (enteredPin == PIN) {
+           Pin = scanner.nextInt(); //MAX ATTEMPTS
+            if (Pin == PIN) {
                 System.out.println("PIN already exists, please try again");
             }
         }

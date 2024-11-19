@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522057b-5991-44ef-a5c1-43bfbc8f691b" name="Changes" comment="Added Day 10">
-      <change afterPath="$PROJECT_DIR$/weekThree/ATM/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weekThree/ATM/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weekTwo/numberGame.java" afterDir="false" />
+    <list default="true" id="5522057b-5991-44ef-a5c1-43bfbc8f691b" name="Changes" comment="Added Day 12">
+      <change afterPath="$PROJECT_DIR$/weekThree/ATM/ATMTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekThree/ATM/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weekThree/ATM/weekTreeDayTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/valiit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekThree/ATM/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/weekThree/ATM/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weekThree/ATM/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/weekThree/ATM/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +107,22 @@
       <recent name="src.week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ATM">
-    <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weekThree.ATM.ATM" />
+  <component name="RunManager" selected="Application.weekTreeDayTwo">
+    <configuration name="ATMTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weekThree.ATM.ATMTwo" />
+      <module name="valiit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weekThree.ATM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="weekTreeDayTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weekThree.ATM.weekTreeDayTwo" />
       <module name="valiit" />
       <extension name="coverage">
         <pattern>
@@ -122,19 +136,6 @@
     </configuration>
     <configuration name="weekTwoDayFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="weekTwo.weekTwoDayFive" />
-      <module name="valiit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weekTwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="weekTwoDayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="weekTwo.weekTwoDayOne" />
       <module name="valiit" />
       <extension name="coverage">
         <pattern>
@@ -174,19 +175,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.testDayTwo" />
-      <item itemvalue="Application.ATM" />
+      <item itemvalue="Application.ATMTwo" />
+      <item itemvalue="Application.weekTreeDayTwo" />
       <item itemvalue="Application.weekTwoDayFive" />
       <item itemvalue="Application.weekTwoDayThree" />
       <item itemvalue="Application.weekTwoDayThreeTest" />
-      <item itemvalue="Application.weekTwoDayOne" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ATM" />
+        <item itemvalue="Application.weekTreeDayTwo" />
+        <item itemvalue="Application.ATMTwo" />
         <item itemvalue="Application.weekTwoDayFive" />
         <item itemvalue="Application.weekTwoDayThreeTest" />
         <item itemvalue="Application.weekTwoDayThree" />
-        <item itemvalue="Application.weekTwoDayOne" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +217,7 @@
       <workItem from="1731481223089" duration="12040000" />
       <workItem from="1731584526706" duration="1232000" />
       <workItem from="1731597833012" duration="9887000" />
-      <workItem from="1731677113470" duration="13512000" />
+      <workItem from="1731677113470" duration="28452000" />
     </task>
     <task id="LOCAL-00001" summary="Hello">
       <option name="closed" value="true" />
@@ -450,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731744379124</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added Day 12">
+      <option name="closed" value="true" />
+      <created>1732011885373</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1732011885373</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +484,8 @@
     <MESSAGE value="Added Day 6" />
     <MESSAGE value="Added Day 8" />
     <MESSAGE value="Added Day 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Day 10" />
+    <MESSAGE value="Added Day 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Day 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -499,16 +509,6 @@
           <line>15</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weekTwo/weekTwoDayFive.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/weekThree/ATM/ATM.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/week1/Kontroll.java</url>
           <line>4</line>
@@ -517,24 +517,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/weekTwo/weekTwoDayFive.java</url>
-          <line>41</line>
-          <properties class="weekTwo.weekTwoDayFive">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/weekTwo/weekTwoDayFive.java</url>
-          <line>45</line>
-          <properties class="weekTwo.weekTwoDayFive">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
