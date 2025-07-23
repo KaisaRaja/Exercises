@@ -27,9 +27,5 @@ Võid vabalt materjale uurida ja neist õppida. Need on heaks aluseks edasiste o
 
 ---
 
-## Kontakt
-
-Kui on küsimusi või soovid tagasisidet, võid minuga ühendust võtta.
-
 Autor: Kaisa Raja
 Projekti eesmärk: Õppimine
